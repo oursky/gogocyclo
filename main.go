@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.google.com/p/gcfg"
+	"gopkg.in/gcfg.v1"
 )
 
 const usageDoc = `Ignore cyclomatic analyse result from gocyclo.
